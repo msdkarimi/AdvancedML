@@ -1,0 +1,34 @@
+{
+
+    "models_dir" : "./models/domain_randomization/top_score",
+    "logs_dir" : "./logs",
+    "env" : "CustomHopper-source-v0",
+    "alg" : "ppo",
+    "obs": "mlp",
+    "policy": "MlpPolicy",
+    "ignore_warnings" : true,
+    "print" : true,
+    "custom_arch" : false,
+    "time_steps" : 5e5,
+    
+    "callbacks" : ["eval", "checkpoint"],
+    "checkpoint_freq" : 1e5,
+    "eval_freq" : 5e4,
+    
+
+    "domain_randomization" : true,
+    "chosen_domain" : "grid",
+    "n_distributions" : 1,
+    
+    
+    "n_steps" : [1472],
+    "learning_rate" : [0.000485],
+    "gamma" : [0.990101],
+    "clip_range" : [0.107607],
+    "ent_coef" : [0],
+    "gae_lambda" : [0.963952]
+    
+}
+
+
+

@@ -1,0 +1,4 @@
+,learning_rate,gamma,clip_range,ent_coef,n_steps,gae_lambda,randomization distribution,policy,network,tuned method,eval episodes,source reward,target reward
+0,0.00054,0.989125,0.135039,0,1472,0.966356,"[[1.5, 4.0]]",CnnPolicy,cnn,grid,50,174.27325334,166.16865122
+1,0.00054,0.989125,0.135039,0,1472,0.966356,"[[1.5, 4.0]]",CnnPolicy,cnn,grid,50,143.63591562,158.52999906000002
+2,0.00054,0.989125,0.135039,0,1472,0.966356,"[[1.5, 4.0]]",CnnPolicy,cnn,grid,50,108.06001245999998,110.57223958

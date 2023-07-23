@@ -1,0 +1,31 @@
+{
+
+    "models_dir": "./models/optuna_tuning_main_params",
+    "logs_dir": "./logs",
+    "n_trials": 320,
+    
+    "env": "CustomHopper-source-v0",
+    "alg": "ppo",
+    "obs": "mlp",
+    "policy": "MlpPolicy",
+    "ignore_warnings": true,
+    "print" : true,
+    "custom_arch": false,
+    "time_steps": 1e6,
+    
+    "callbacks" : ["eval", "checkpoint"],
+    "checkpoint_freq" : 5e5,
+    "eval_freq" : 1e4,
+    
+    
+    "domain_randomization": false,
+    "chosen_domain": [[1.5, 2.4]],
+    
+    "n_steps": [1024, 4096],
+    "learning_rate": [0.00001, 0.001],
+    "gamma": [0.9, 0.9999],
+    "clip_range": [0.1, 0.3],
+    "gae_lambda": [0.9, 0.99],
+    "ent_coef": 0
+
+}

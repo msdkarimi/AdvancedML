@@ -1,0 +1,34 @@
+					TOP 10 BEST RESULTS FOR OPTUNA (randomized search)
+					__________________________________________________
+
+
+learning_rate     gamma clip_range ent_coef n_steps gae_lambda randomization distribution policy  network tuned method eval episodes source reward target reward
+     0.000289   0.99401   0.111169        0    3136    0.96716                        NaN    mlp emprical         grid            50    1498.35458    1686.38255
+     0.000563  0.992862     0.1072        0    1344   0.963882                        NaN    mlp emprical         grid            50   1619.967391   1665.349312
+     0.000571   0.98997   0.122862        0    3968   0.960394                        NaN    mlp emprical         grid            50   1645.856965   1663.906495
+     0.000468  0.985514   0.129651        0    3136    0.95639                        NaN    mlp emprical         grid            50   1357.239371   1661.298599
+     0.000679  0.992933   0.125015        0    2176   0.969432                        NaN    mlp emprical         grid            50   1588.382153   1627.119092
+     0.000563  0.990618   0.112483        0    1600    0.96493                        NaN    mlp emprical         grid            50   1541.755391   1604.075957
+     0.000435  0.996373   0.111583        0    2112   0.963693                        NaN    mlp emprical         grid            50   1482.055963   1595.875587
+     0.000321  0.992505   0.132439        0    2112   0.957343                        NaN    mlp emprical         grid            50   1489.057803   1577.443162
+     0.000526  0.994899   0.105448        0    2240   0.967268                        NaN    mlp emprical         grid            50   1546.552774   1572.920664
+     0.000493  0.996965   0.118868        0    1664   0.965673                        NaN    mlp emprical         grid            50   1310.822003   1561.239067
+     0.000418  0.994457   0.100692        0    2368   0.956502                        NaN    mlp emprical         grid            50   1473.847722   1553.396848
+
+
+					TOP 10 BEST RESULTS FOR OPTUNA (randomized search) - SOURCE
+					___________________________________________________________
+
+
+learning_rate     gamma clip_range ent_coef n_steps gae_lambda randomization distribution policy  network tuned method eval episodes source reward target reward
+      0.00054  0.989125   0.135039        0    1472   0.966356                        NaN    mlp emprical         grid            50     1789.7332    1286.98062
+     0.000544  0.988273   0.121027        0    1856   0.966962                        NaN    mlp emprical         grid            50   1770.171604    782.765229
+      0.00043  0.987974     0.1328        0    2112   0.960129                        NaN    mlp emprical         grid            50    1734.72706    690.812072
+     0.000523  0.991254   0.119511        0    2048   0.964195                        NaN    mlp emprical         grid            50   1729.158554    980.389572
+     *0.000422  0.991761   0.125875        0    3904   0.959133                        NaN    mlp emprical         grid            50   1728.831053    902.682221
+     0.000569  0.990486   0.120183        0    3776   0.962096                        NaN    mlp emprical         grid            50   1711.856912    862.890453
+     0.000613  0.990919   0.106105        0    2240   0.964751                        NaN    mlp emprical         grid            50   1697.858684   1448.975087
+     0.000485  0.990101   0.107607        0    1472   0.963952                        NaN    mlp emprical         grid            50   1695.929855   1060.130437
+     0.000535  0.989854   0.118027        0    1408   0.967968                        NaN    mlp emprical         grid            50   1687.014868    734.970482
+     0.000408  0.990761   0.100542        0    1920   0.958415                        NaN    mlp emprical         grid            50   1674.939301    920.309666
+      0.00027   0.99124   0.116479        0    3200   0.989837                        NaN    mlp emprical         grid            50   1660.302092    756.232882
